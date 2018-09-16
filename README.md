@@ -1,4 +1,5 @@
-#Installation guide
+Installation guide
+==================
 
 ```
 git clone <repo url>
@@ -10,7 +11,8 @@ python3 manage.py migrate
 python3 manage.py test --exclude-tag=perfomance
 ```
 
-##Some thoughs about the implementation
+Some thoughs about the implementation
+--------------------------------------
 
 My first solution was straightforward and based on intuition. It iterates over all cities, compares how many DE we need
 with/without DM and in case it beats best score, we have new one.  
